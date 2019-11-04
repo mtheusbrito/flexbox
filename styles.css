@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.app{
+    width:  300px;
+    padding: 20px;
+}
+body{
+    background: #E6Ecf0;
+    font-family: 'Helvetica Neue', Arial, 'Helvetica', sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    
+}
