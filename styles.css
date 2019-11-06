@@ -1,17 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
-.app{
-    width:  300px;
+
+.app {
+    width: 300px;
     padding: 20px;
 }
-input, button{
+
+input,
+button {
     outline: none;
 }
-header#main-header{
+
+header#main-header {
 
     height: 46px;
     background: #fff;
@@ -20,36 +24,42 @@ header#main-header{
     z-index: 1;
 
 }
-header#main-header nav ul{
+
+header#main-header nav ul {
     display: flex;
     list-style: none;
 
 
 }
-header#main-header nav li{
+
+header#main-header nav li {
     align-items: center;
     font-size: 13px;
     color: #667580;
     font-weight: bold;
     margin-left: 30px;
 }
-header#main-header nav li:first-child{
-margin: 0;
+
+header#main-header nav li:first-child {
+    margin: 0;
 }
-header#main-header nav li i{
-   margin-right:7px;    
-} 
+
+header#main-header nav li i {
+    margin-right: 7px;
+}
 
 header#main-header div.side {
     display: flex;
 }
-header#main-header div.side img{
+
+header#main-header div.side img {
     height: 34px;
     width: 34px;
     border-radius: 50%;
     margin: 0 15px;
 }
-header#main-header div.side button{
+
+header#main-header div.side button {
     height: 34px;
     background: #3bb9e3;
     display: flex;
@@ -61,43 +71,46 @@ header#main-header div.side button{
     color: #fff;
     border: 0;
 
-    border-radius: 16px ;
+    border-radius: 16px; 
+    margin-right: 20px;   
 }
-.input-search{
-    
-    position: relative!important;
+
+.input-search {
+
+    position: relative !important;
     display: flex;
     justify-content: center;
     align-items: center;
 
 
 }
-.input-search input{
+
+.input-search input {
     background: #F5f8fa;
-    border:  1px solid #e6ecf0;
+    border: 1px solid #e6ecf0;
     height: 34px;
-    padding: 0  30px 0 12px;
+    padding: 0 30px 0 12px;
     border-radius: 16px;
     color: #667581;
     font-size: 12px;
     font-weight: bold;
     order: 1;
-  
-    
-    
+
+
+
 }
 
-.input-search i{
+.input-search i {
     /* float:right; */
     align-items: flex-end;
     position: absolute;
     right: 4px;
     color: #667580;
-    
+
     padding: 5px;
 }
 
-body{
+body {
     background: #E6Ecf0;
     font-family: 'Helvetica Neue', Arial, 'Helvetica', sans-serif;
     text-rendering: optimizeLegibility !important;
@@ -106,19 +119,20 @@ body{
 }
 
 
-.content{
+.content {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 30px;
 }
-header#main-header .content{
+
+header#main-header .content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100%;
 }
 
-div.banner{
+div.banner {
     height: 380px;
     width: 100%;
     background: #3bb9e3;
@@ -129,52 +143,55 @@ div.banner{
     justify-content: center;
     color: #fff;
 }
-div.bar{
+
+div.bar {
     height: 59px;
     background: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0,0, 0.25);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
 }
 
-div.bar .content{
-    display: flex ;
+div.bar .content {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 285px;
-    height: 100%; 
+    height: 100%;
 }
 
-div.bar .content ul{
+div.bar .content ul {
     display: flex;
     list-style: none;
-    height: 100% ;
+    height: 100%;
 
 }
 
-div.bar .content ul li{
-     display:  flex;
+div.bar .content ul li {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    padding:  0 15px;
+    padding: 0 15px;
     position: relative;
     justify-content: center;
 
-    } 
-    div.bar .content ul li.active::after{
-       content: '';
-       width: 100%;
-       height: 2px;
-       position: absolute;
-       bottom: 0;
-       left: 0;
-       background: #3bb9e3;
-    } 
+}
 
-    div.bar .content ul li span {
-          color: #667580;
-          font-size: 12px;
-          font-weight: bold;
+div.bar .content ul li.active::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #3bb9e3;
+}
+
+div.bar .content ul li span {
+    color: #667580;
+    font-size: 12px;
+    font-weight: bold;
 
 }
+
 div.bar .content ul li strong {
     color: #667580;
     font-size: 18px;
@@ -182,15 +199,18 @@ div.bar .content ul li strong {
     margin-top: 2px;
 
 }
-div.bar .content ul li strong{
-    color:  #3bb9e3
+
+div.bar .content ul li strong {
+    color: #3bb9e3
 }
+
 div.bar .content .actions {
     display: flex;
     /* justify-content: center; */
     align-items: center;
 }
-div.bar .content .actions button{
+
+div.bar .content .actions button {
     height: 34px;
 
     display: flex;
@@ -201,25 +221,29 @@ div.bar .content .actions button{
     font-size: 14px;
     color: #3bb9e3;
     border: 1px solid #3bb9e3;
-    border-radius: 16px ;
-    margin-right:20px ;
+    border-radius: 16px;
+    margin-right: 20px;
 }
+
 div.wrapper-content {
     display: flex;
 }
+
 div.wrapper-content aside.profile {
-    width: 260px; 
+    width: 260px;
 
 }
-div.wrapper-content aside.profile img.avatar{
+
+div.wrapper-content aside.profile img.avatar {
     margin-top: -130px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     border: 5px solid #fff;
-    
+
 }
-div.wrapper-content aside.profile h1{
+
+div.wrapper-content aside.profile h1 {
     font-size: 21px;
     color: #1f2226;
     margin-top: 10px;
@@ -230,16 +254,19 @@ div.wrapper-content aside.profile span {
     color: #53626c;
 
 }
+
 div.wrapper-content aside.profile p {
     font-size: 14px;
     color: #1f2226;
     margin-top: 15px;
 }
+
 div.wrapper-content aside.profile ul {
     margin-top: 20px;
     list-style: none;
 }
-div.wrapper-content aside.profile ul.list li{
+
+div.wrapper-content aside.profile ul.list li {
     margin-top: 14px;
     color: #657786;
     list-style: none;
@@ -248,32 +275,35 @@ div.wrapper-content aside.profile ul.list li{
     margin-top: 5px;
 
 }
-div.wrapper-content aside.profile ul li:first-child{
+
+div.wrapper-content aside.profile ul li:first-child {
     margin: 0;
 }
-div.wrapper-content aside.profile ul li i{
+
+div.wrapper-content aside.profile ul li i {
     margin-right: 10px;
 }
 
 
-div.wrapper-content aside.profile .widget{
+div.wrapper-content aside.profile .widget {
     margin-top: 20px;
 
 }
-div.wrapper-content aside.profile .widget strong{
-    font-weight:  normal;
+
+div.wrapper-content aside.profile .widget strong {
+    font-weight: normal;
     color: #3bb9e3;
     font-size: 14px;
-    display: flex ;
+    display: flex;
     justify-content: center;
 
 }
 
-div.wrapper-content aside.profile .widget strong i{
+div.wrapper-content aside.profile .widget strong i {
     margin-right: 5px;
 }
 
-div.wrapper-content aside.profile .followers ul{
+div.wrapper-content aside.profile .followers ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -282,7 +312,7 @@ div.wrapper-content aside.profile .followers ul{
 
 }
 
-div.wrapper-content aside.profile .followers ul li{
+div.wrapper-content aside.profile .followers ul li {
     width: 45px;
     height: 45px;
     background: #d0d5d9;
@@ -296,7 +326,7 @@ div.wrapper-content aside.profile .followers ul li{
 
 
 
-div.wrapper-content aside.profile .images ul{
+div.wrapper-content aside.profile .images ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -305,14 +335,133 @@ div.wrapper-content aside.profile .images ul{
 
 }
 
-div.wrapper-content aside.profile .images ul li{
+div.wrapper-content aside.profile .images ul li {
     width: 80px;
     height: 80px;
     background: #d0d5d9;
     border-radius: 8px;
     flex-shrink: 0;
-   flex: 1 0 auto;
+    flex: 1 0 auto;
 
     margin: 0 5px 5px 0;
 
 }
+
+div .wrapper-content .timeline {
+    flex: 1;
+}
+
+div.wrapper-content aside.widgets {
+    widows: 290px;
+    margin-top: 10px;
+}
+
+div.wrapper-content aside.widgets .widget {
+    background: #FFF;
+    padding: 15px;
+}
+
+div.wrapper-content aside.widgets .widget .title {
+    display: flex;
+    align-items: baseline;
+}
+
+div.wrapper-content aside.widgets .widget .title strong {
+    font-size: 18px;
+    color: #1f2226;
+
+}
+
+div.wrapper-content aside.widgets .widget .title a {
+
+    color: #3bb9e3;
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    padding-left: 10px;
+}
+
+div.wrapper-content aside.widgets .widget .title a::before {
+    content: '';
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: #222;
+    /* margin-left: 5px; */
+    margin-right: 5px;
+    position: absolute;
+    left: 4px;
+    top: 6px;
+
+}
+
+
+
+div.wrapper-content aside.widgets .widget .follow ul {
+    list-style: none;
+    margin-top: 10px;
+} 
+div.wrapper-content aside.widgets .follow ul li {
+    display: flex;
+    justify-content: space-between;   
+    border-bottom:  1px solid #ccd6dd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+div.wrapper-content aside.widgets .follow ul li:last-child {
+margin-bottom: 0;
+padding-bottom: 0;
+border: 0;
+}
+div.wrapper-content aside.widgets .follow ul li .profile {
+    display: flex;
+    align-items: center;
+}
+div.wrapper-content aside.widgets .follow ul li .profile img {
+    width: 48px; 
+    height: 48px;
+    border-radius: 50%;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info strong {
+font-size: 14px;
+color: #1F2326;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info strong span {
+
+    font-weight: bold;
+    color:#9a9a9a  ; 
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info button{
+    height: 27px;
+    background:#FFF;
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #3bb9e3;
+    border: 1px solid #3bb9e3;
+    border-radius: 16px; 
+  
+}
+
+
+div.wrapper-content aside.widgets .follow ul li .profile .info > a {
+    color: #CCD6DD;
+    text-decoration: none;
+    font-size: 14px;
+  
+}
+
+
